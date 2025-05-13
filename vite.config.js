@@ -6,6 +6,7 @@ export default defineConfig({
   root: "src",
   publicDir: "../public",
   build: {
+    base: "/zoom-m1",
     outDir: "../dist",
     emptyOutDir: true,
     rollupOptions: {
