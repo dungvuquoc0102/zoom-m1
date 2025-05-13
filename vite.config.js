@@ -3,10 +3,10 @@ import { ViteEjsPlugin } from "vite-plugin-ejs";
 import path from "path";
 
 export default defineConfig({
+  base: "./",
   root: "src",
   publicDir: "../public",
   build: {
-    base: "/zoom-m1",
     outDir: "../dist",
     emptyOutDir: true,
     rollupOptions: {
